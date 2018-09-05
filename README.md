@@ -5,7 +5,9 @@
 
 calculator for natural formula like "1+2+3" for result 6,support custom function like sqrt(20) also whatever you want,support formulas loop,  like sqrt(sqrt(20+20))
 
-
+###Changelog
+#### 2018-09-05
+* add supprot pow(^) for function convert and shunt.
 
 [中文](https://github.com/billyct/happycalculator/blob/master/readme_zh.md)
 
@@ -108,4 +110,4 @@ return array of the result calculated by the string_code parsed
 
 
 ##License
-MIT © billyct
+MIT © cdyue

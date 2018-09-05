@@ -7,6 +7,10 @@
 
 
 
+###改动
+#### 2018-09-05
+* add supprot pow(^) for function convert and shunt.
+
 [ENGLISH](./README.md)
 
 ##安装
