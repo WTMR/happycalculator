@@ -113,4 +113,4 @@ calculator.calculateCode(code);
 
 
 ##License
-MIT © billyct
+MIT © cdyue
