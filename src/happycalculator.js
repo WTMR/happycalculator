@@ -588,7 +588,7 @@ var Calculator = {
       throw new Error('error formula to convert please!');
     }
 
-    var infixArray = infix.split(/[\+\-\*\/]+/), //先把字符串里面的数据和符号区分开！没有运算符的数组
+    var infixArray = infix.split(/[\+\-\*\/\^]+/), //先把字符串里面的数据和符号区分开！没有运算符的数组
       result = [],
       temp = [],
       flag = 0,
