@@ -59,6 +59,10 @@ var Calculator = {
     '/' : {
       'prec' : 3,
       'assoc' : 'Left'
+    },
+    '^' : {
+      'prec' : 4,
+      'assoc' : 'Left'
     }
   },
 
@@ -184,6 +188,9 @@ var Calculator = {
         break;
       case '/' :
         result = this.__div(fir, sec);
+        break;
+      case '^' :
+        result = Math.pow(fir, sec);
         break;
       default :
         result = -1;
